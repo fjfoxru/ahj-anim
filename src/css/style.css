@@ -1,0 +1,43 @@
+.collapse:not(.show) {
+    display: none;
+  }
+  
+  .collapsing {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease;
+  }
+
+
+
+
+  .widjet {
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+}
+.widjet__button {
+    background: #eaa760;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.widjet__modal {
+    background: #eaa7606e;
+    border: 1px solid #ec9130;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+.widjet-anim {
+    transition: opacity 0.1s linear;
+    opacity: 0;
+}
+
+.widjet-show {
+    opacity: 1;
+}
+.widjet-hide {
+    opacity: 0;
+}
